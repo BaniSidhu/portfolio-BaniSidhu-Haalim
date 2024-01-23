@@ -66,7 +66,7 @@ function Hero() {
       Software  Engineer
     </motion.div>
 <div className="imageContainer">
-  <motion.img src="/Bani2.png" alt=""initial={{ opacity: 0 }}
+  <motion.img src="/Bani2.png" alt="" initial={{ opacity: 0 }}
       animate={{ opacity: 1 }} transition={{duration:4}}/>
 </div>
    </div>
