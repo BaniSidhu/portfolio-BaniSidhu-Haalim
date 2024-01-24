@@ -34,17 +34,20 @@ background: linear-gradient(180deg,#111132 ,#505064);
         position: absolute;
         z-index: 0;
         background-repeat: repeat;
+        object-fit: cover;
      
     }
     .planets{
         background-image: url("/planets.png");
         background-size: cover;
-        background-position: top;
         width: 90%;
-        height: 120%;
+        height: 110%;
         margin: auto;
         position: absolute;
         z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
 }

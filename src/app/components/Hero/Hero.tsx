@@ -26,7 +26,7 @@ import {motion} from "framer-motion"
 }
  const sliderVariants={
   initial:{
-    x:0,
+    x:0
     
   },
   animate:{
