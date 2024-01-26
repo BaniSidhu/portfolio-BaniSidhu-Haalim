@@ -16,7 +16,7 @@ background: linear-gradient(180deg,#111132 ,#505064);
        
     }
 
-    .mountains{
+    .mountains1{
         background-image: url("/mountains.png");
         background-size: cover;
         background-position: bottom;
@@ -25,29 +25,28 @@ background: linear-gradient(180deg,#111132 ,#505064);
         position: absolute;
         z-index: 3;
     }
-    .stars{
+    .stars1{
         background-image: url("/stars.png");
         background-size: cover;
         background-position:top;
         width: 100%;
-        height: 160%;
+        height: 200%;
         position: absolute;
         z-index: 0;
         background-repeat: repeat;
         object-fit: cover;
      
     }
-    .planets{
+    .planets1{
         background-image: url("/planets.png");
         background-size: cover;
+        background-position: top ;
         width: 90%;
-        height: 110%;
+        height: 100%;
         margin: auto;
         position: absolute;
         z-index: 2;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+       
     }
 
 }

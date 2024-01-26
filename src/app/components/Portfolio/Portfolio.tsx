@@ -13,13 +13,13 @@ function Parallax1() {
   // Adjust the initial values and output range to control the animation
   const yText = useTransform(scrollYProgress, [0, 1], ['0%', '350%']);
   const yBg = useTransform(scrollYProgress, [0, 1], ['0%', '40%'])
-  const xBg = useTransform(scrollYProgress, [0, 1], ['0%', '55%'])
+  const xBg = useTransform(scrollYProgress, [0, 1], ['0%', '50%'])
   return (
     <div className="Portfolio">
       <motion.h1 style={{ y: yText, transition:"duration:2 " }}>What We Did?</motion.h1>
-      <motion.div className="mountains"></motion.div>
-      <motion.div className="planets" style={{ x: yBg, backgroundImage: 'url(/sun.png)' }}></motion.div>
-      <motion.div style={{ y: xBg, zIndex: 1 }} className="stars"></motion.div>
+      <motion.div className="mountains1"></motion.div>
+      <motion.div className="planets1" style={{ x: yBg, backgroundImage: 'url(/sun.png)' }}></motion.div>
+      <motion.div style={{ y: xBg, zIndex: 1, transition:" ease: 'easeIn'"  }} className="stars1"></motion.div>
     </div>
   );
 }
