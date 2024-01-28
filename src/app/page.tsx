@@ -8,6 +8,7 @@ import Parallax1 from "./components/Parallax1/Parallax1";
 import Portfolio from "./components/Portfolio/Portfolio"
 import Services from "./components/Services/Services";
 import Portfolio2 from "./components/Portfolio2/Portfolio2";
+import Contact from "./components/Contact/Contact";
 
 export default function Home() {
   return (
@@ -20,7 +21,10 @@ export default function Home() {
 <Portfolio2/>
 
 
-<section id="Contact">Contact</section>
+<section id="Contact">
+
+  <Contact/>
+</section>
 
 
 
